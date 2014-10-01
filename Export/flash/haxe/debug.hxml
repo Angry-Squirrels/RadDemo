@@ -1,0 +1,31 @@
+-main ApplicationMain 
+-cp C:\workspace\haxelib-dev\RadEngine\
+-D radengine=
+-cp C:\workspace\haxelib-dev\openfl\
+-cp C:\outils\HaxeToolkit\haxe\lib\ash/1,5,3/
+-D ash=1.5.3
+-cp C:\workspace\haxelib-dev\hscript\
+-cp C:\outils\HaxeToolkit\haxe\lib\haxeui/1,4,14/
+-D haxeui=1.4.14
+-cp C:\outils\HaxeToolkit\haxe\lib\actuate/1,7,5/
+-D actuate=1.7.5
+-cp C:\outils\HaxeToolkit\haxe\lib\svg/1,0,8/
+-D svg=1.0.8
+-D openfl=2.0.1
+-D hscript=2.0.1
+-cp Source
+-cp C:\workspace\haxelib-dev\openfl/backends/flash
+-cp C:\workspace\haxelib-dev\openfl/backends/flash
+-cp C:\outils\HaxeToolkit\haxe\lib\haxeui/1,4,14/styles
+-cp C:\outils\HaxeToolkit\haxe\lib\haxeui/1,4,14/fonts
+-D tools=1.5.7
+-D openfl-flash
+-D web
+--macro include('fr.radstar.radengine.components', true)
+--macro include('fr.radstar.radengine.systems', true)
+--macro include('fr.radstar.radengine.editor', true)
+-swf-version 11.2
+-swf Export/flash/bin/RadDemo.swf
+-swf-header 800:600:30:FFFFFF
+-cp Export/flash/haxe
+-debug

@@ -1,0 +1,18 @@
+{
+	"type": "Level",
+	"entitys": [
+		{
+			"name": "a",
+			"params": [
+				{
+					"name": "fr.radstar.radengine.components.Transform",
+					"params": {
+						"rotation": 45,
+						"scaleY": 0.5
+					}
+				}
+			],
+			"prefab": "assets/Prefab/FirstPrefab.radasset"
+		}
+	]
+}
